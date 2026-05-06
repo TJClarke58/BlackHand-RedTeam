@@ -110,7 +110,7 @@ def main():
     parser.add_argument('--no-verify', action='store_true', help='Disable SSL verification')
     parser.add_argument('--timeout', type=int, default=30, help='Request timeout in seconds')
     parser.add_argument("--lport")
-    parser.add_argument("--lport")
+    parser.add_argument("--lhost")
     args = parser.parse_args()
     
     setup_logging()
